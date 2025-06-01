@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'JoyMax.github.io'
+    if: github.repository == 'LotusInMud/JoyMax.github.io'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
